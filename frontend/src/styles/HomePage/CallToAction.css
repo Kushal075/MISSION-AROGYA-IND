@@ -1,0 +1,54 @@
+/* src/styles/HomePage/CallToAction.css */
+
+.call-to-action-section {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.call-to-action-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  gap: 8cm; /* 8 cm gap between two columns */
+  flex-wrap: wrap;
+}
+
+.faq-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Gap between each question */
+}
+
+.faq-item {
+  text-align: left;
+  max-width: 400px; /* So answers can wrap to multiple lines nicely */
+}
+
+.faq-question {
+  font-size: 24px; /* Increased font size */
+  font-weight: normal;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px; /* gap between dropdown and text */
+  white-space: nowrap; /* Keep question in single line */
+}
+
+.dropdown-icon {
+  font-size: 24px;
+}
+
+.faq-answer {
+  font-size: 22px; /* Increased font size for answer */
+  color: #555;
+  margin-top: 8px;
+  margin-left: 36px; /* Indent answers */
+  white-space: normal; /* Allow answers to break into multiple lines */
+  line-height: 1.5;
+}

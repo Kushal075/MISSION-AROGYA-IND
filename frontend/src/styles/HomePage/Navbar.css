@@ -1,0 +1,81 @@
+.navbar {
+  width: 100%;
+  background-color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Left Section */
+.navbar-left {
+  flex: none; /* No flex stretching */
+  margin-right: 80px; /* ✅ Move logo 5cm to the right */
+}
+
+.navbar-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+/* Center Items */
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-center li a:hover {
+  color: #007bff;
+}
+
+/* Right Items */
+.navbar-right {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li a,
+.login-btn {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.login-btn:hover {
+  background-color: #005dc1;
+}

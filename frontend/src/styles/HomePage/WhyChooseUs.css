@@ -1,0 +1,34 @@
+.why-choose-us-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+}
+
+.why-choose-us-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: flex-start; /* Start from left */
+  margin-left: 7cm; /* 7 cm space from the left */
+  gap: 5cm; /* 5 cm gap between each stat */
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  color: #2b7a78; /* Green color */
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 20px;
+  color: #555;
+}

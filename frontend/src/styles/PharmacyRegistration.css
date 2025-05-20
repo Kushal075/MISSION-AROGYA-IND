@@ -1,0 +1,96 @@
+/* General Form Container */
+.pharmacy-registration-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  /* Inputs */
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* File Upload */
+  input[type="file"] {
+    border: none;
+    padding: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Primary Button */
+  button.bg-blue-600 {
+    background: #007bff;
+    color: white;
+  }
+  
+  button.bg-blue-600:hover {
+    background: #0056b3;
+  }
+  
+  /* Back Button */
+  button.bg-gray-400 {
+    background: #6c757d;
+    color: white;
+  }
+  
+  button.bg-gray-400:hover {
+    background: #545b62;
+  }
+  
+  /* Submit Button */
+  button.bg-green-600 {
+    background: #28a745;
+    color: white;
+  }
+  
+  button.bg-green-600:hover {
+    background: #1e7e34;
+  }
+  
+  /* Form Navigation Buttons */
+  .form-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  

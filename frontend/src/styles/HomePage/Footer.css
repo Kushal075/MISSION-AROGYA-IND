@@ -1,0 +1,53 @@
+/* src/styles/HomePage/Footer.css */
+
+.footer-section {
+  background-color: #004080; /* Dark Blue */
+  color: #ffffff;
+  padding: 60px 30px 20px 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-column {
+  min-width: 180px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  font-size: 14px; /* Small font */
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer-brand {
+  font-size: 72px; /* Bigger font size */
+  font-weight: bold;
+  color: #ffffff; /* White color */
+  margin-bottom: 10px;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #d1d1d1;
+  margin-top: 5px;
+}

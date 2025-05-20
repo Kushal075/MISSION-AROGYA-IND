@@ -1,0 +1,14 @@
+.video-call-btn {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .video-call-btn:hover {
+    background-color: #219150;
+  }
+  

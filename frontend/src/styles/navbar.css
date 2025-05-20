@@ -1,0 +1,28 @@
+.navbar {
+    background: #2C3E50;
+    padding: 15px 20px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img {
+    height: 50px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .login-btn {
+    background: #E74C3C;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  

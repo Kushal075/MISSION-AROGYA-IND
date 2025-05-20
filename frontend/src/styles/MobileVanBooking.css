@@ -1,0 +1,14 @@
+.mobile-van {
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .mobile-van button {
+    padding: 10px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

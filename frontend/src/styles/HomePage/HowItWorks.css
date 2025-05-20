@@ -1,0 +1,46 @@
+.how-it-works-section {
+  padding: 80px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.how-it-works-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.steps-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* reduced gap */
+  flex-wrap: wrap;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-icon {
+  width: 100px; /* increased size */
+  height: 100px; /* increased size */
+  border-radius: 50%; /* perfect circle */
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.step-text {
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap; /* keep text in one line */
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: #2b7a78;
+  margin-left: 1cm; /* 1cm space before line starts */
+}

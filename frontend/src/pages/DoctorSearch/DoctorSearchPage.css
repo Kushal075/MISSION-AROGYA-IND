@@ -1,0 +1,175 @@
+.search-bar-wrapper {
+  width: 30cm;
+  height: 1.6cm;
+  margin: 2rem auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  /* FIX: Removed overflow hidden */
+}
+
+.search-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative; /* Needed for dropdown positioning */
+}
+
+.search-section input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  padding-left: 30px;
+  height: 100%;
+}
+
+.search-section .icon {
+  position: absolute;
+  left: 10px;
+  color: gray;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ccc;
+  height: 70%;
+  margin: auto 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 999;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+}
+
+.dropdown li {
+  padding: 10px 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.1rem; /* Bigger font for area name */
+  font-weight: 500;
+}
+
+.dropdown li:hover {
+  background-color: #f5f5f5;
+}
+
+.subtext {
+  font-size: 0.85rem;
+  color: gray;
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+
+
+/*Filterbar*/
+/* src/components/DoctorSearch/DoctorFilters.css */
+
+.filter-bar-wrapper {
+  background-color: #102d69;
+  padding: 1rem 1.6cm;
+  color: white;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-card {
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  border: 1px solid #ffffff55;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  border-radius: 0;
+  min-width: 150px;
+}
+
+.dropdown {
+  margin-top: 0.5rem;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ffffff30;
+  width: 200px;
+  padding: 0.8rem;
+  z-index: 1000;
+  color: black;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 0.6rem;
+  padding: 4px 0;
+}
+
+.dropdown-item input {
+  margin-left: auto; /* push input to right */
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ffffff30;
+  margin: 4px 0;
+}
+
+/* All Filters Expanded Section */
+.all-filters-section {
+  margin-top: 1rem;
+  padding: 1rem 1.6cm;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #102d69;
+  color: white;
+  border-top: 1px solid #ffffff30;
+}
+
+.filters-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+}
+
+.filters-group strong {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.filters-group label {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 0.6rem;
+  margin: 0.3rem 0;
+}
+
+.filters-group label input {
+  margin-left: auto; /* align all inputs right */
+}
+
+/* Optional input nudge */
+input[type="radio"],
+input[type="checkbox"] {
+  transform: translateY(1px);
+}

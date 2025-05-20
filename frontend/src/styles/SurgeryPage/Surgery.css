@@ -1,0 +1,687 @@
+.surgery-header {
+  position: relative;
+  margin: 1cm 5cm;
+  width: calc(100% - 10cm);
+  height: 12cm;
+}
+
+.surgery-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.surgery-header-caption {
+  position: absolute;
+  top: 05%;
+  left: 5%;
+  width: 40%;
+  color: black;
+  text-align: left;
+  transform: none;
+}
+
+.surgery-title {
+  color: white;
+  font-size: 3rem; /* big */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.surgery-subtitle {
+  font-size: 2rem; /* bigger than title */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.surgery-description {
+  font-size: 1.2rem; /* smaller than subtitle, but still readable */
+  margin-bottom: 1rem;
+}
+
+.phone-box {
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  display: inline-block;
+}
+
+.ailment-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.7rem 0cm 1rem 4.5cm;
+  color: black;
+  text-align: left;
+}
+
+.popular-surgeries-box {
+  border: 2px solid white;
+  padding: 2rem;
+  margin-left: 4cm;
+  width: calc(120% - 5cm);
+  height: 25cm; /* was 38cm before, now increased by 6cm */
+  box-sizing: border-box;
+}
+
+.surgery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr); /* ensures 4 rows */
+  gap: 2rem;
+  height: 100%;
+}
+
+
+
+.surgery-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.surgery-icon {
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.surgery-item h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.popular-surgeries-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+} 
+
+.popular-surgeries-container {
+  margin-bottom: 1.5cm;
+}
+
+.departments-box {
+  border: 2px solid white;
+  padding: 2rem;
+  margin-left: 5cm;
+  width: calc(55% - 5cm);
+  height: 25cm;
+  box-sizing: border-box;
+}
+
+.departments-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.departments-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  height: 100%;
+}
+
+.department-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.department-icon {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.department-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+.video-section-left {
+  margin-left: 5cm;
+  width: calc(55% - 5cm);
+  box-sizing: border-box;
+  margin-top: 2cm;
+
+  margin-bottom: 2cm;
+}
+
+.video-heading-left {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.video-container-left {
+  width: 100%;
+  height: auto;
+}
+
+.video-container-left iframe {
+  width: 100%;
+  height: 400px;
+  border-radius: 1rem;
+}
+
+.video-section-footer {
+  margin-top: 1.5cm;
+  font-size: 1.8rem; /* Large font size */
+  font-weight: normal; /* Not bold */
+  color: black;
+  line-height: 1.4;
+}
+
+
+.how-it-works-container {
+  margin-left: 5cm;
+  margin-top: 1.5cm;
+  width: calc(55% - 5cm);
+}
+
+.how-it-works-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.steps-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem; /* reduced from 2rem */
+}
+.step-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.step-icon-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.step-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.dotted-line {
+  width: 2px;
+  height: 25px;
+  border-left: 2px dotted #000; /* changed from #aaa to black */
+  margin-top: 0.4rem;
+}
+.step-text {
+  font-size: 1.2rem;
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+
+.benefits-container {
+  margin-left: 5cm;
+  margin-top: 1.5cm;
+  width: calc(55% - 5cm);
+}
+
+.benefits-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5cm;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.benefit-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.benefit-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.benefit-description {
+  font-size: 1rem;
+  font-weight: normal;
+  white-space: pre-line;
+}
+
+.registration-form {
+  width: 78%;
+  max-width: none;
+  height: 18cm;
+  padding: 2rem;
+  background-color: #fff; /* keep as is */
+  border-radius: 1rem;    /* keep as is */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* keep as is */
+  font-family: 'Arial', sans-serif;
+  margin-right: 1cm;
+}
+.registration-sticky-wrapper {
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  z-index: 1000;
+}
+
+
+
+.form-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.3rem;
+  background-color: #fff;
+  text-align: left;        /* <-- aligns text to the left */
+  font-weight: normal;     /* <-- makes "Select Ailment" unbold */
+}
+
+
+.form-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+
+.disclaimer-text {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.tc-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #003366;
+}
+
+.form-button:hover {
+  background-color: #1f30cc;
+}
+
+.form-or-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.reachout-box {
+  border: 2px solid #000;
+  border-radius: 1rem;
+  padding: 1rem 5rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 8cm;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ailment-popup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  height: 70%;
+  background: white;
+  z-index: 1000;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+
+.ailment-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.ailment-columns {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Main Categories (Left Column) */
+.ailment-left {
+  width: 40%;
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.ailment-left::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ailment-left::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+/* Subcategories (Right Column) */
+.ailment-right {
+  flex: 1;
+  padding-left: 1rem;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.ailment-right::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ailment-right::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+.main-category-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.2rem;
+  min-width: 100%;
+}
+
+.main-category-item.selected {
+  background-color: #f0f0f0;
+  border-left: 4px solid #007bff;
+}
+
+.category-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.category-sub {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.ailment-column {
+  flex: 1;
+}
+
+.ailment-dept {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.ailment-sublist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ailment-subitem {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.icon-placeholder {
+  width: 18px;
+  height: 18px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.icon-round {
+  width: 40px;
+  height: 40px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.ailment-box {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ailment-box:hover {
+  background-color: #eee;
+}
+
+.selected-subitem {
+  background-color: #cce5ff;
+  border-color: #66b2ff;
+  font-weight: bold;
+}
+.surgery-main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 7cm; /* Gap between PopularSurgeries and Form */
+  padding: 2rem;
+}
+
+
+.surgery-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* High enough to be above everything */
+}
+
+
+/* Popup container */
+.surgery-popup {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1001; /* above backdrop */
+}
+
+/* Close button */
+.popup-close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Heading */
+.popup-title {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Form */
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input fields */
+.popup-form .form-input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Button */
+.popup-form .form-button {
+  background-color: #003366; /* Dark blue */
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.popup-form .form-button:hover {
+  background-color: #0056b3;
+}
+
+
+.surgery-footer {
+  background-color: #002855; /* dark blue */
+  color: white;
+  padding: 3rem 2rem; /* Increase vertical space */
+  min-height: 200px;   /* Optional: control base height */
+}
+
+
+.footer-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-title {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+
+.footer-vision {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 1.5cm;
+  line-height: 1.5;
+}
+
+.footer-credit {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1.5cm;
+}
+

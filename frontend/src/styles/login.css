@@ -1,0 +1,32 @@
+.login-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .role-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .role-card {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .doctor { background-color: #007BFF; } /* Blue */
+  .patient { background-color: #28A745; } /* Green */
+  .pharmacy { background-color: #FFC107; } /* Yellow */
+  
+  .role-card:hover {
+    opacity: 0.8;
+  }
+  
